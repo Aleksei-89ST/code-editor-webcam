@@ -6,7 +6,7 @@ import "ace-builds/src-noconflict/snippets/css";
 import "ace-builds/src-noconflict/ext-language_tools";
 import { EditorContext } from "../../context/context";
 
-function CssEditor() {
+const CssEditor = () => {
   const {css,setCss} = useContext(EditorContext)
   return (
     <AceEditor

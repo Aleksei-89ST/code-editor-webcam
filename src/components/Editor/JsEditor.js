@@ -6,7 +6,7 @@ import "ace-builds/src-noconflict/snippets/javascript";
 import "ace-builds/src-noconflict/ext-language_tools";
 import { EditorContext } from "../../context/context";
 
-function JsEditor() {
+const JsEditor = () => {
   const {js,setJs} = useContext(EditorContext)
   return (
     <AceEditor
