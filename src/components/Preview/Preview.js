@@ -24,8 +24,8 @@ const Preview = () => {
   </html>
       `;
   }, [html, css, js]);
-//   iframe - выводит результат нашего кода который мы будем писать слева
-//   srcDoc -будет выводить <!DOCTYPE html>
+  //   iframe - выводит результат нашего кода который мы будем писать слева
+  //   srcDoc -будет выводить <!DOCTYPE html>
   return (
     <div className={styles.content}>
       {document ? (
@@ -35,6 +35,6 @@ const Preview = () => {
       )}
     </div>
   );
-}
+};
 
 export default Preview;

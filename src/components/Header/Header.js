@@ -19,17 +19,17 @@ const Header = () => {
       </header>
       {camera ? (
         <Draggable>
-            <Webcam
-          className={styles.camera}
-          audio={false}
-          width={300}
-          height={300}
-          videoConstraints={{
-            width: 300,
-            height: 300,
-            facingMode: "user",
-          }}
-        />
+          <Webcam
+            className={styles.camera}
+            audio={false}
+            width={300}
+            height={300}
+            videoConstraints={{
+              width: 300,
+              height: 300,
+              facingMode: "user",
+            }}
+          />
         </Draggable>
       ) : null}
     </>
